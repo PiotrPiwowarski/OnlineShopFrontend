@@ -3,3 +3,19 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.item {
+  margin: 10px;
+  padding: 10px;
+  width: 500px;
+  box-shadow: 0px 0px 5px black;
+  border-radius: 10px;
+}

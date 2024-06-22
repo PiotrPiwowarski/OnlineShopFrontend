@@ -16,7 +16,7 @@ const ItemsList = () => {
     }, [])
 
     return (
-        <div>
+        <div className='content-container'>
             {itemsList.map(item => {
                 return <Item key={item.id} item={item} />
             })}

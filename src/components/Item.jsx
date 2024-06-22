@@ -1,6 +1,6 @@
 const Item = ({ item }) => {
     return (
-        <div>
+        <div className='item'>
             <p>{item.id}</p>
             <p>{item.name}</p>
             <p>{item.price}</p>
